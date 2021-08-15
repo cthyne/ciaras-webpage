@@ -1,0 +1,135 @@
+/*--------=Navigation toolbar--------*/
+nav {
+  font-size: 30px;
+  word-spacing: 25px;
+  display: block;
+  margin-top: auto; 
+  margin-bottom: auto; 
+  padding: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+nav a {
+  color:rgba(20, 20, 163, 0.514);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color:blueviolet;
+  
+}
+
+/*-------Banner on all pages------*/
+.page-banner img{
+  display: block;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+}
+
+.page-banner h1 {
+  font-family: monospace; 
+  text-align: center;
+  position: relative;
+  color: white; 
+}
+.centered-text {
+  position: absolute;
+  font-size: 22px;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*-------------------=footer on all pages------------------------*/
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: azure;
+}
+
+.footer ul {
+  margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+.footer ul li {
+  float: left;	
+	margin: 15px 5px 8px 5px;
+}
+
+/*------=images on home-page---------*/
+.home-image img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;   
+}
+
+/*-----=aloha header & paragraph on homepage-----------------*/
+.aloha-container {
+  font-family: monospace;
+  text-align: center;
+  font-size: 75px;
+  font-weight: 600;
+}
+
+.welcome-story {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(159, 174, 190);
+  margin: 20px;
+  padding: 50px;
+}
+
+/*--------=About Section Container--------------*/
+
+.about-section {
+  text-align: left;
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+/*---------= Contact three column images-----------*/
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*-----------=Contact information container----------------*/
+
+.aloha-definition-container {
+  text-align: center;
+  display: block;
+  line-height: 0.8;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact-container, .contact-container h3 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: -15px; 
+  margin-top: 50px;
+}
+
+.contact-container ol {
+  display: inline-block;
+  text-align: left;
+}
+
